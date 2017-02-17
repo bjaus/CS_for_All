@@ -1,9 +1,10 @@
-#Book can be found at: https://www.cs.hmc.edu/csforall/
+##[CS for All](https://www.cs.hmc.edu/csforall/)
 
-#Table of Contents
+##Table of Contents
 
-##Introduction
-###Chapter 1: Introduction
+###Introduction
+
+####Chapter 1: Introduction
 1.1 What is Computer Science?
 1.1.1 Data
 1.1.2 Algorithms
@@ -21,8 +22,9 @@
 1.2.8 A-Maze Your Friends!
 1.2.9 Uncomputable environments
 
-##Functional Programming
-###Chapter 2 : Functional Programming
+###Functional Programming
+
+####Chapter 2 : Functional Programming
 2.1 Humans, Chimpanzees, and Spell Checkers
 2.2 Getting Started in Python
 2.2.1 Naming Things
@@ -53,7 +55,7 @@
 2.11 Edit distance!
 2.12 Conclusion
 
-###Chapter 3: Functional Programming, Part Deux
+####Chapter 3: Functional Programming, Part Deux
 3.1 Cryptography and Prime Numbers
 3.2 First-Class Functions
 3.3 Generating Primes
@@ -69,7 +71,8 @@
 3.8: RSA Cryptography Revisited
 3.9: Conclusion
 
-##Computer Organization
+###Computer Organization
+
 ###Chapter 4: Computer Organization
 4.1 Introduction to Computer Organization
 4.2 Representing Information
