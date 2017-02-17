@@ -44,16 +44,35 @@ def distance(first, second):
 if __name__ == '__main__':
 
     from time import sleep
-
-    me = 'Brandon'
-    results = []
+    
+    # me = input('Check what name? ')
+    names = set()
+    # results = []
     
     with open('first_names.txt', 'r') as fin:
         for name in fin:
-            name = name.strip()
-            results.append((distance(me, name), name))
+            if ' ' in name:
+                name = name.split(' ')[0]
+            names.add(name.strip())
             
-    results.sort()
-    with open('first_name_distance.csv', 'w') as fout:
-        for dist, name in results:
-            fout.write('{},{}\n'.format(name, dist))
+    names = list(names)
+    names.sort()
+            
+    with open('first_names.txt', 'w') as fout:
+        for n, name in enumerate(names):
+            if not name == '':
+                if n != len(names) - 1:
+                    fout.write('{}\n'.format(name))
+                else:
+                    fout.write('{}'.format(name))
+    
+    # with open('first_names.txt', 'r') as fin:
+        # for name in fin:
+            # name = name.strip()
+            # results.append((distance(me, name), name))
+            
+    # results.sort()
+    # with open('{}_name_distance.csv'.format(me), 'w') as fout:
+        # fout.write('Name,Distance\n')
+        # for dist, name in results:
+            # fout.write('{},{}\n'.format(name, dist))
