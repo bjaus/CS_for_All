@@ -44,12 +44,10 @@ def distance(first, second):
 if __name__ == '__main__':
 
     import os
-    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'name_distances')
-    if not os.path.exists(output_path):
-        os.mkdir(output_path)
-    os.chdir(output_path)
 
-    me = input('\nCheck what name? ')
+    os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'name_distances'))
+
+    me = input('\nCheck what name? ').strip()
     results = []
     
     with open('first_names.txt', 'r') as fin:
