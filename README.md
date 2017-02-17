@@ -1,6 +1,6 @@
 #[CS for All](https://www.cs.hmc.edu/csforall/)
 
-##Table of Contents
+##[Table of Contents](https://www.cs.hmc.edu/csforall/#table-of-contents)
 ###[Introduction](https://www.cs.hmc.edu/csforall/#intrdouction)
 ####[Chapter 1: Introduction](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html)
 1. [What is Computer Science?](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#what-is-computer-science)
