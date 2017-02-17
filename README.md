@@ -1,15 +1,15 @@
 #[CS for All](https://www.cs.hmc.edu/csforall/)
 
 ##Table of Contents
-###Introduction
-####Chapter 1: Introduction
-1. What is Computer Science?
+###[Introduction](https://www.cs.hmc.edu/csforall/#intrdouction)
+####[Chapter 1: Introduction](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html)
+1. [What is Computer Science?](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#what-is-computer-science)
     1. Data
     2. Algorithms
     3. Programming
     4. Abstraction
     5. Problem Solving and Creativity
-2. PicoBot
+2. [PicoBot](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#picobot)
     1. The Roomba Problem
     2. The Environment
     3. State
@@ -20,54 +20,53 @@
     8. A-Maze Your Friends!
     9. Uncomputable environments
 
-###Functional Programming
-
-####Chapter 2 : Functional Programming
-2.1 Humans, Chimpanzees, and Spell Checkers
-2.2 Getting Started in Python
-2.2.1 Naming Things
-2.2.2 What’s in a Name?
-2.3 More Data: From Numbers to Strings
-2.3.1 A Short Note on Length
-2.3.2 Indexing
-2.3.3 Slicing
-2.3.4 String Arithmetic
-2.4 Lists
-2.4.1 Some Good News!
-2.5 Functioning in Python
-2.5.1 A Short Comment on Docstrings
-2.5.2 An Equally Short Comment on Comments
-2.5.3 Functions Can Have More Than One Line
-2.5.4 Functions Can Have Multiple Arguments
-2.5.5 Why Write Functions?
-2.6 Making Decisions
-2.6.1 A second example
-2.6.2 Indentation
-2.6.3 Multiple Conditions
-2.7 Recursion!
-2.8 Recursion, Revealed
-2.8.1 Functions that Call Functions
-2.8.2 Recursion, Revealed, Really!
-2.9 Building Recursion Muscles
-2.10 Use It Or Lose It
-2.11 Edit distance!
-2.12 Conclusion
+###[Functional Programming](https://www.cs.hmc.edu/csforall/#functional-programming)
+####[Chapter 2 : Functional Programming](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html)
+1. [Humans, Chimpanzees, and Spell Checkers](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#humans-chimpanzees-and-spell-checkers)
+2. [Getting Started in Python](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#getting-started-in-python)
+    1. Naming Things
+    2. What’s in a Name?
+3. [More Data: From Numbers to Strings](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#more-data-from-numbers-to-strings)
+    1. A Short Note on Length
+    2. Indexing
+    3. Slicing
+    4. String Arithmetic
+4. [Lists](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#lists)
+    1. Some Good News!
+5. [Functioning in Python](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#functioning-in-python)
+    1. A Short Comment on Docstrings
+    2. An Equally Short Comment on Comments
+    3. Functions Can Have More Than One Line
+    4. Functions Can Have Multiple Arguments
+    5. Why Write Functions?
+6. [Making Decisions](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#making-decisions)
+    1. A second example
+    2. Indentation
+    3. Multiple Conditions
+7. [Recursion!](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#recursion)
+8. [Recursion, Revealed](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#recursion-revealed)
+    1. Functions that Call Functions
+    2. Recursion, Revealed, Really!
+9. [Building Recursion Muscles](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#building-recursion-muscles)
+10. [Use It Or Lose It](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#use-it-or-lose-it)
+11. [Edit distance!](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#edit-distance)
+12. [Conclusion](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html#conclusion)
 
 ####Chapter 3: Functional Programming, Part Deux
-3.1 Cryptography and Prime Numbers
-3.2 First-Class Functions
-3.3 Generating Primes
-3.4 Filtering
-3.5 Lambda
-3.6 Putting Google on the Map!
-3.6.1 Map
-3.6.2 Reduce
-3.6.3 Composition and MapReduce
-3.7: Functions as Results
-3.7.1: Python Does Calculus!
-3.7.2: Higher Derivatives
-3.8: RSA Cryptography Revisited
-3.9: Conclusion
+1. Cryptography and Prime Numbers
+2. First-Class Functions
+3. Generating Primes
+4. Filtering
+5. Lambda
+6. Putting Google on the Map!
+    1. Map
+    2. Reduce
+    3. Composition and MapReduce
+7. Functions as Results
+    1. Python Does Calculus!
+    2. Higher Derivatives
+8. RSA Cryptography Revisited
+9. Conclusion
 
 ###Computer Organization
 
