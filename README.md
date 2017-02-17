@@ -1,9 +1,7 @@
-##[CS for All](https://www.cs.hmc.edu/csforall/)
+#[CS for All](https://www.cs.hmc.edu/csforall/)
 
 ##Table of Contents
-
 ###Introduction
-
 ####Chapter 1: Introduction
 1. What is Computer Science?
     1. Data
