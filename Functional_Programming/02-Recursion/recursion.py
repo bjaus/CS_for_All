@@ -43,36 +43,25 @@ def distance(first, second):
         
 if __name__ == '__main__':
 
-    from time import sleep
-    
-    # me = input('Check what name? ')
-    names = set()
-    # results = []
+    import os
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'name_distances')
+    if not os.path.exists(output_path):
+        os.mkdir(output_path)
+    os.chdir(output_path)
+
+    me = input('\nCheck what name? ')
+    results = []
     
     with open('first_names.txt', 'r') as fin:
         for name in fin:
-            if ' ' in name:
-                name = name.split(' ')[0]
-            names.add(name.strip())
-            
-    names = list(names)
-    names.sort()
-            
-    with open('first_names.txt', 'w') as fout:
-        for n, name in enumerate(names):
+            name = name.strip()
             if not name == '':
-                if n != len(names) - 1:
-                    fout.write('{}\n'.format(name))
-                else:
-                    fout.write('{}'.format(name))
-    
-    # with open('first_names.txt', 'r') as fin:
-        # for name in fin:
-            # name = name.strip()
-            # results.append((distance(me, name), name))
+                if ' ' in name:
+                    name = name.split(' ')[0]
+                results.append((distance(me, name), name))
             
-    # results.sort()
-    # with open('{}_name_distance.csv'.format(me), 'w') as fout:
-        # fout.write('Name,Distance\n')
-        # for dist, name in results:
-            # fout.write('{},{}\n'.format(name, dist))
+    results.sort()
+    with open('{}_name_distance.csv'.format(me), 'w') as fout:
+        fout.write('Name,Distance\n')
+        for dist, name in results:
+            fout.write('{},{}\n'.format(name, dist))
