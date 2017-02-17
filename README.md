@@ -8,19 +8,19 @@
 1. What is Computer Science?
     1. Data
     2. Algorithms
-1.1.3 Programming
-1.1.4 Abstraction
-1.1.5 Problem Solving and Creativity
-1.2 PicoBot
-1.2.1 The Roomba Problem
-1.2.2 The Environment
-1.2.3 State
-1.2.4 Think locally, act globally
-1.2.5 Whatever
-1.2.6 Algorithms and Rules
-1.2.7 The Picobot challenge
-1.2.8 A-Maze Your Friends!
-1.2.9 Uncomputable environments
+    3. Programming
+    4. Abstraction
+    5. Problem Solving and Creativity
+2. PicoBot
+    1. The Roomba Problem
+    2. The Environment
+    3. State
+    4. Think locally, act globally
+    5. Whatever
+    6. Algorithms and Rules
+    7. The Picobot challenge
+    8. A-Maze Your Friends!
+    9. Uncomputable environments
 
 ###Functional Programming
 
