@@ -70,87 +70,79 @@
 
 ###Computer Organization
 
-###Chapter 4: Computer Organization
-4.1 Introduction to Computer Organization
-4.2 Representing Information
-4.2.1 Integers
-4.2.2 Arithmetic
-4.2.3 Letters and Strings
-4.2.4 Structured Information
-4.3 Logic Circuitry
-4.3.1 Boolean Algebra
-4.3.2 Making Other Boolean Functions
-4.3.3 Logic Using Electrical Circuits
-4.3.4 Computing With Logic
-4.3.5 Memory
-4.4 Building a Complete Computer
-4.4.1 The von Neumann Architecture
-4.5 Hmmm
-4.5.1 A Simple Hmmm Program
+####Chapter 4: Computer Organization
+1. Introduction to Computer Organization
+2. Representing Information
+    1. Integers
+    2. Arithmetic
+    3. Letters and Strings
+    4. Structured Information
+3. Logic Circuitry
+    1. Boolean Algebra
+    2. Making Other Boolean Functions
+    3. Logic Using Electrical Circuits
+    4. Computing With Logic
+    5. Memory
+4. Building a Complete Computer
+    1. The von Neumann Architecture
+5. Hmmm
+    1. A Simple Hmmm Program
+    2. Looping
+    3. Functions
+    4. Recursion
+    5. The Complete Hmmm Instruction Set
+    6. A Few Last Words
+6. Conclusion
 
-##How Does It Work?
-Trying It Out
-4.5.2 Looping
-4.5.3 Functions
-4.5.4 Recursion
+###Imperative Programming
+####Chapter 5: Imperative Programming
+1. A Computer that Knows You (Better than You Know Yourself?)
+    1. Our Goal: A Music Recommender System
+2. Getting Input from the User
+3. Repeated Tasks–Loops
+    1. Recursion vs. Iteration at the Low Level
+    2. Definite Iteration: for loops
+    3. How Is the Control Variable Used?
+    4. Accumulating Answers
+    5. Indefinite Iteration: while Loops
+    6. for Loops vs. while Loops
+    7. Creating Infinite Loops On Purpose
+    8. Iteration Is Efficient
+4. References and Mutable vs. Immutable Data
+    1. Assignment by Reference
+    2. Mutable Data Types Can Be Changed Using Other Names!
+5. Mutable Data + Iteration: Sorting out Artists
+    1. Why Sort? Running Time Matters
+    2. A Simple Sorting Algorithm: Selection Sort
+    3. Why selectionSort Works
+    4. A Swap of a Different Sort
+    5. 2D Arrays and Nested Loops
+    6. Dictionaries
+6. Reading and Writing Files
+7. Putting It All Together: Program Design
+8. Conclusion
 
-##Stacks
-###Saving Precious Possessions
-4.5.5 The Complete Hmmm Instruction Set
-4.5.6 A Few Last Words
-4.6 Conclusion
-
-##Imperative Programming
-##Chapter 5: Imperative Programming
-5.1 A Computer that Knows You (Better than You Know Yourself?)
-5.1.1 Our Goal: A Music Recommender System
-5.2 Getting Input from the User
-5.3 Repeated Tasks–Loops
-5.3.1 Recursion vs. Iteration at the Low Level
-5.3.2 Definite Iteration: for loops
-5.3.3 How Is the Control Variable Used?
-5.3.4 Accumulating Answers
-5.3.5 Indefinite Iteration: while Loops
-5.3.6 for Loops vs. while Loops
-5.3.7 Creating Infinite Loops On Purpose
-5.3.8 Iteration Is Efficient
-5.4 References and Mutable vs. Immutable Data
-5.4.1 Assignment by Reference
-5.4.2 Mutable Data Types Can Be Changed Using Other Names!
-5.5 Mutable Data + Iteration: Sorting out Artists
-5.5.1 Why Sort? Running Time Matters
-5.5.2 A Simple Sorting Algorithm: Selection Sort
-5.5.3 Why selectionSort Works
-5.5.4 A Swap of a Different Sort
-5.5.5 2D Arrays and Nested Loops
-5.5.6 Dictionaries
-5.6 Reading and Writing Files
-5.7 Putting It All Together: Program Design
-5.8 Conclusion
-
-##Object-Oriented Programming
-###Chapter 6: Fun and Games with OOPs: Object-Oriented Programs
-6.1 Introduction
-6.2 Thinking Objectively
-6.3 The Rational Solution
-6.4 Overloading
-6.5 Printing an Object
-6.6 A Few More Words on the Subject of Objects
-6.7 Getting Graphical with OOPs
-6.8 Robot and Zombies, Finally!
-6.9 Conclusion
+###Object-Oriented Programming
+####Chapter 6: Fun and Games with OOPs: Object-Oriented Programs
+1. Introduction
+2. Thinking Objectively
+3. The Rational Solution
+4. Overloading
+5. Printing an Object
+6. A Few More Words on the Subject of Objects
+7. Getting Graphical with OOPs
+8. Robot and Zombies, Finally!
+9. Conclusion
 
 ###Problem “Hardness”
-###Chapter 7: How Hard is the Problem?
-7.1 The Never-ending Program
-7.2 Three Kinds of Problems: Easy, Hard, and Impossible.
-7.2.1 Easy Problems
-7.2.2 Hard Problems
-7.3 Impossible Problems!
-7.3.1 “Small” Infinities
-
-###“Larger” Infinities
-7.3.2 Uncomputable Functions
-7.4 An Uncomputable Problem
-7.4.1 The Halting Problem
-7.5 Conclusion
+####Chapter 7: How Hard is the Problem?
+1. The Never-ending Program
+2. Three Kinds of Problems: Easy, Hard, and Impossible.
+    1. Easy Problems
+    2. Hard Problems
+3. Impossible Problems!
+    1. “Small” Infinities
+    2. Uncomputable Functions
+4. An Uncomputable Problem
+    1. The Halting Problem
+5. Conclusion
