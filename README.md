@@ -5,9 +5,9 @@
 ###Introduction
 
 ####Chapter 1: Introduction
-- 1.1 What is Computer Science?
-- - 1.1.1 Data
-1.1.2 Algorithms
+1. What is Computer Science?
+    1. Data
+    2. Algorithms
 1.1.3 Programming
 1.1.4 Abstraction
 1.1.5 Problem Solving and Creativity
