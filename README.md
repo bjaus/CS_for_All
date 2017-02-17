@@ -1,1 +1,1 @@
-"# CS_for_All" 
+Book can be found at: https://www.cs.hmc.edu/csforall/
