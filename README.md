@@ -4,21 +4,21 @@
 ###[Introduction](https://www.cs.hmc.edu/csforall/#intrdouction)
 ####[Chapter 1: Introduction](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html)
 1. [What is Computer Science?](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#what-is-computer-science)
-    1. Data
-    2. Algorithms
-    3. Programming
-    4. Abstraction
-    5. Problem Solving and Creativity
+    1. [Data](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#data)
+    2. [Algorithms](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#algorithms)
+    3. [Programming](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#programming)
+    4. [Abstraction](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#abstraction)
+    5. [Problem Solving and Creativity](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#problem-solving-and-creativity)
 2. [PicoBot](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#picobot)
-    1. The Roomba Problem
-    2. The Environment
-    3. State
-    4. Think locally, act globally
-    5. Whatever
-    6. Algorithms and Rules
-    7. The Picobot challenge
-    8. A-Maze Your Friends!
-    9. Uncomputable environments
+    1. [The Roomba Problem](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#the-roomba-problem)
+    2. [The Environment](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#the-environment)
+    3. [State](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#state)
+    4. [Think locally, act globally](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#think-locally-act-globally)
+    5. [Whatever](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#whatever)
+    6. [Algorithms and Rules](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#algorithms-and-rules)
+    7. [The Picobot challenge](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#the-picobot-challenge)
+    8. [A-Maze Your Friends!](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#a-maze-your-friends)
+    9. [Uncomputable environments](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html#uncomputable-environments)
 
 ###[Functional Programming](https://www.cs.hmc.edu/csforall/#functional-programming)
 ####[Chapter 2 : Functional Programming](https://www.cs.hmc.edu/csforall/FunctionalProgramming/functionalprogramming.html)
