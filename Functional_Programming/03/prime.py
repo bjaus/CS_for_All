@@ -14,4 +14,21 @@ def isPrime(n):
     returns True if n is prime else returns False'''
     return not divisors(n, 2, n-1)
     
-print(isPrime(13))
+
+if __name__ == '__main__':
+
+    import sys
+    
+    try:
+        low = int(input('Input lower value (integer): '))
+    except:
+        sys.exit(1)
+        
+    try:
+        high = int(input('Input upper value (integer): '))
+    except:
+        sys.exit(2)
+    
+    for num in range(low, high):
+        if isPrime(num):
+            print(num)
