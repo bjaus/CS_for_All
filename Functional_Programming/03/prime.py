@@ -14,21 +14,29 @@ def isPrime(n):
     returns True if n is prime else returns False'''
     return not divisors(n, 2, n-1)
     
+    
+def listPrimes(n, limit):
+    '''Returns a list of prime numbers between n and limit.'''
+    
+    if int(n) < 2:
+        n = 2
+    
+    if n >= limit:
+        return []
+    elif isPrime(n):
+        return [n] + listPrimes(n+1, limit)
+    else:
+        return listPrimes(n+1, limit)
+        
+    
+def primeSieve(numberList):
+    if not numberList:
+        return []
+    else:
+        prime = numberList[0]
+        return [prime] + primeSieve(sift(prime, numberList[1:]))
+        
 
 if __name__ == '__main__':
 
-    import sys
-    
-    try:
-        low = int(input('Input lower value (integer): '))
-    except:
-        sys.exit(1)
-        
-    try:
-        high = int(input('Input upper value (integer): '))
-    except:
-        sys.exit(2)
-    
-    for num in range(low, high):
-        if isPrime(num):
-            print(num)
+    print(listPrimes(100, 100))
