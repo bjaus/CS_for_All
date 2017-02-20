@@ -28,8 +28,19 @@ def listPrimes(n, limit):
     else:
         return listPrimes(n+1, limit)
         
+        
+def sift(toRemove, numList):
+    '''Takes a number (toRemove) and a list of numbers (numList).
+    Returns the list of those numbers in numList that are not multiples of toRemove.'''
+    return [num for num in numList if num % toRemove != 0]
+    
     
 def primeSieve(numberList):
+    '''Returns the list of all primes in numberList using a prime sieve algorithm.'''
+    
+    import sys
+    sys.setrecursionlimit(20000) # Allows 20,000 levels of recursion
+    
     if not numberList:
         return []
     else:
@@ -39,4 +50,4 @@ def primeSieve(numberList):
 
 if __name__ == '__main__':
 
-    print(listPrimes(100, 100))
+    pass
