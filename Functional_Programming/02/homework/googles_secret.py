@@ -26,6 +26,19 @@ def mean(L):
     '''Takes a list as input and returns the mean (average)
     value in that list using the functools.reduce function.'''
     return reduce(lambda x, y: x + y, L) / len(L)
+    
+    
+def divides(n):
+    def div(k):
+        return n % k == 0
+    return div
+    
+
+def prime(n):
+    '''Takes a positive intger n as input and returns True or False
+    depending on whether n is prime or composite number.'''
+    return None
+    
 
 if __name__ == '__main__':
 
@@ -34,3 +47,5 @@ if __name__ == '__main__':
         # print(factorial(n))
 
     # print(mean(list(range(1, 11))))
+    x = divides(200)
+    print(x(2))
