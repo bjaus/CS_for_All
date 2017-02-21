@@ -23,11 +23,14 @@ def factorial(n):
     
     
 def mean(L):
-    pass
-    
+    '''Takes a list as input and returns the mean (average)
+    value in that list using the functools.reduce function.'''
+    return reduce(lambda x, y: x + y, L) / len(L)
 
 if __name__ == '__main__':
 
     # for n in range(1, 11):
         # print('\ne({}) = {}\nerror: {}'.format(n, e(n), error(n)))
         # print(factorial(n))
+
+    # print(mean(list(range(1, 11))))
