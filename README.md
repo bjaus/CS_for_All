@@ -1,5 +1,7 @@
 #[CS for All](https://www.cs.hmc.edu/csforall/)
 
+##[Homework](https://www.cs.hmc.edu/twiki/bin/view/ModularCS1/CS5BlackMasterHWPage)
+
 ##[Table of Contents](https://www.cs.hmc.edu/csforall/#table-of-contents)
 ###[Introduction](https://www.cs.hmc.edu/csforall/#intrdouction)
 ####[Chapter 1: Introduction](https://www.cs.hmc.edu/csforall/Introduction/Introduction.html)
