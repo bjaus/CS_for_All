@@ -3,7 +3,7 @@ def add(x, y):
     return x + y
     
     
-def triple(x):
+def trip(x):
     '''Takes a number x as an argument.'''
     return x * 3
     
