@@ -1,4 +1,5 @@
 import math
+from functools import reduce
 
 def e(n):
     '''Approximates the mathematical value e using
@@ -13,18 +14,15 @@ def error(n):
     function assuming that n terms (beyond the leading 1) as used.'''
     return abs(e(n) - math.e)
  
-    
+
 def factorial(n):
     '''Returns the factorial of a given number n.'''
-    if n <= 1:
-        return 1
-    else:
-        return n * factorial(n-1)
+    return reduce(lambda x, y: x * y, list(range(1, n+1)))
     
 
 if __name__ == '__main__':
 
-    # for n in range(1, 11):
+    for n in range(1, 11):
         # print('\ne({}) = {}\nerror: {}'.format(n, e(n), error(n)))
-        
-    print(factorial(5))
+
+        print(factorial(n))
