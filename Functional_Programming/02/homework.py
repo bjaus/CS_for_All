@@ -1,11 +1,5 @@
 from math import factorial
 
-
-def inverse(n):
-    '''Returns the inverse of the number n given'''
-    return 1 / n
-    
-    
 def e(n):
     '''Approximates the mathematical value e using
     a Taylor expansion, which can be expressed as
