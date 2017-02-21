@@ -1,0 +1,3 @@
+Homework: https://www.cs.hmc.edu/twiki/bin/view/ModularCS1/CS5BlackMasterHWPage
+Robitics Based Excercises: https://www.cs.hmc.edu/twiki/bin/view/Robotics/RobotReasoningLabsForGCC
+WinZip: http://www.winzip.com/win/en/tar-file.html
