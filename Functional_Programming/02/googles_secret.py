@@ -1,3 +1,5 @@
+# Hyperlink: https://www.cs.hmc.edu/twiki/bin/view/ModularCS1/GooglesSecret!
+
 import math
 from functools import reduce
 
@@ -19,10 +21,13 @@ def factorial(n):
     '''Returns the factorial of a given number n.'''
     return reduce(lambda x, y: x * y, list(range(1, n+1)))
     
+    
+def mean(L):
+    pass
+    
 
 if __name__ == '__main__':
 
-    for n in range(1, 11):
+    # for n in range(1, 11):
         # print('\ne({}) = {}\nerror: {}'.format(n, e(n), error(n)))
-
-        print(factorial(n))
+        # print(factorial(n))
