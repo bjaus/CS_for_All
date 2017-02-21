@@ -1,13 +1,30 @@
-from math import factorial
+import math
 
 def e(n):
     '''Approximates the mathematical value e using
     a Taylor expansion, which can be expressed as
     the sum 1 + 1/1! + 1/2! + 1/3! + ...'''
-    return 1 + sum([1/factorial(i) for i in range(1, n+1)])
+    return 1 + sum([1/math.factorial(i) for i in range(1, n+1)])
+    
+    
+def error(n):
+    '''Returns the absolute value of the difference between
+    the "actual" value of e and the approximation in the e(n)
+    function assuming that n terms (beyond the leading 1) as used.'''
+    return abs(e(n) - math.e)
+ 
+    
+def factorial(n):
+    '''Returns the factorial of a given number n.'''
+    if n <= 1:
+        return 1
+    else:
+        return n * factorial(n-1)
     
 
 if __name__ == '__main__':
 
-    for n in range(1, 11):
-        print('e({}) = {:.8f}'.format(n, e(n)))
+    # for n in range(1, 11):
+        # print('\ne({}) = {}\nerror: {}'.format(n, e(n), error(n)))
+        
+    print(factorial(5))
