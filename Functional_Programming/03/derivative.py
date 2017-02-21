@@ -25,4 +25,4 @@ def quartic(x):
     
 if __name__ == '__main__':
     g = kthDeriviative(quartic, 0.0001, 3)
-    print(g(10))
+    print(g(11))
