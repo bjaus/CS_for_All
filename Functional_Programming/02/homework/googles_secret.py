@@ -1,4 +1,4 @@
-# Hyperlink: https://www.cs.hmc.edu/twiki/bin/view/ModularCS1/GooglesSecret!
+# https://www.cs.hmc.edu/twiki/bin/view/ModularCS1/GooglesSecret!
 
 import math
 from functools import reduce
