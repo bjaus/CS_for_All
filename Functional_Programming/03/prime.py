@@ -41,6 +41,8 @@ def primeSieve(numberList):
     import sys
     sys.setrecursionlimit(20000) # Allows 20,000 levels of recursion
     
+    numberList = [n for n in numberList if n >= 2]
+    
     if not numberList:
         return []
     else:
