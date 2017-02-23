@@ -39,6 +39,11 @@ def prime(n):
     depending on whether n is prime or composite number.'''
     return None
     
+    
+def clear_scren():
+    from os import system
+    if system('cls' if os.name ==  'nt' else 'clear')
+    
 
 if __name__ == '__main__':
 
@@ -47,5 +52,5 @@ if __name__ == '__main__':
         # print(factorial(n))
 
     # print(mean(list(range(1, 11))))
-    x = divides(200)
-    print(x(2))
+    # x = divides(200)
+    # print(x(2))
