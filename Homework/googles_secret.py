@@ -1,5 +1,8 @@
-# https://www.cs.hmc.edu/twiki/bin/view/ModularCS1/GooglesSecret!
+'''
+https://www.cs.hmc.edu/twiki/bin/view/ModularCS1/GooglesSecret!
+'''
 
+import os
 import math
 from functools import reduce
 
@@ -8,42 +11,42 @@ def e(n):
     a Taylor expansion, which can be expressed as
     the sum 1 + 1/1! + 1/2! + 1/3! + ...'''
     return 1 + sum([1/math.factorial(i) for i in range(1, n+1)])
-    
-    
+
+
 def error(n):
     '''Returns the absolute value of the difference between
     the "actual" value of e and the approximation in the e(n)
     function assuming that n terms (beyond the leading 1) as used.'''
     return abs(e(n) - math.e)
- 
+
 
 def factorial(n):
     '''Returns the factorial of a given number n.'''
     return reduce(lambda x, y: x * y, list(range(1, n+1)))
-    
-    
+
+
 def mean(L):
     '''Takes a list as input and returns the mean (average)
     value in that list using the functools.reduce function.'''
     return reduce(lambda x, y: x + y, L) / len(L)
-    
-    
+
+
 def divides(n):
     def div(k):
         return n % k == 0
     return div
-    
+
 
 def prime(n):
     '''Takes a positive intger n as input and returns True or False
     depending on whether n is prime or composite number.'''
     return None
-    
-    
-def clear_scren():
-    from os import system
-    if system('cls' if os.name ==  'nt' else 'clear')
-    
+
+
+# def clear_scren():
+#     # if os.system('cls' if os.name ==  'nt' else 'clear')
+#     if os.system('cls' if os.name == 'nt' else 'clear')
+
 
 if __name__ == '__main__':
 
@@ -54,3 +57,4 @@ if __name__ == '__main__':
     # print(mean(list(range(1, 11))))
     # x = divides(200)
     # print(x(2))
+    print('hello world')

@@ -1,3 +1,5 @@
 venv
 .gitigore
 __*
+.vscode
+*.swp
