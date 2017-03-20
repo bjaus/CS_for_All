@@ -1,12 +1,11 @@
 {
     "version": "0.2.0",
-    "configurations": [
-        {
+    "configurations": [{
             "name": "Python",
             "type": "python",
             "request": "launch",
-            "stopOnEntry": true,
-            "pythonPath": "${config.python.pythonPath}",
+            "stopOnEntry": false,
+            "pythonPath": "C:/Users/brand/Anaconda3/python.exe",
             "program": "${file}",
             "cwd": "${workspaceRoot}",
             "env": null,

@@ -1,6 +1,6 @@
 '''
 Harvey Mudd College - CS for All
-Problem Name: Google's GooglesSecret
+Problem Name: Google's Secret
 Topic: Introduction to Python functions using map and reduce
 Lectures: Module 0, Lecture 2
 URL: https://www.cs.hmc.edu/twiki/bin/view/ModularCS1/GooglesSecret!
