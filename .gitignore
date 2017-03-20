@@ -1,5 +1,4 @@
 venv
-.gitigore
 __*
 *.swp
-.vscode
+*.vscode*
