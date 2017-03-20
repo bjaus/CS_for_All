@@ -1,5 +1,9 @@
 '''
-https://www.cs.hmc.edu/twiki/bin/view/ModularCS1/GooglesSecret!
+Harvey Mudd College - CS for All
+Problem Name: Google's GooglesSecret
+Topic: Introduction to Python functions using map and reduce
+Lectures: Module 0, Lecture 2
+URL: https://www.cs.hmc.edu/twiki/bin/view/ModularCS1/GooglesSecret!
 '''
 
 import os
@@ -44,7 +48,6 @@ def prime(n):
 
 
 # def clear_scren():
-#     # if os.system('cls' if os.name ==  'nt' else 'clear')
 #     if os.system('cls' if os.name == 'nt' else 'clear')
 
 
@@ -57,4 +60,3 @@ if __name__ == '__main__':
     # print(mean(list(range(1, 11))))
     # x = divides(200)
     # print(x(2))
-    print('hello world')
