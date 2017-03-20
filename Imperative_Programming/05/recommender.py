@@ -6,6 +6,10 @@ PREF_FILE = os.path.join(
                 os.path.dirname(os.path.abspath(__file__)), 
                 'music-rec-store.txt'
             )
+    
+if not os.path.exists(PREF_FILE):
+    file = open(PREF_FILE, 'w')
+    file.close()
 
 
 def load_users(file_name):
@@ -40,7 +44,7 @@ def get_preferences(user_name, user_map):
         print("Your music preferences include:")
         for artist in prefs:
             print(artist)
-        print("Please entere another artist or band that you")
+        print("Please enter another artist or band that you")
         print("like, or just press enter")
         new_pref = input("to see your recommendations: ")
     else:
@@ -51,7 +55,7 @@ def get_preferences(user_name, user_map):
     
     while new_pref != '':
         prefs.append(new_pref.strip().title())
-        print("Please entere another artist of band that you")
+        print("Please enter another artist or band that you")
         print("like, or just press entere")
         new_pref = input("to see your recommendations: ")
         
