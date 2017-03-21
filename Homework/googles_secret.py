@@ -60,3 +60,5 @@ if __name__ == '__main__':
     # print(mean(list(range(1, 11))))
     # x = divides(200)
     # print(x(2))
+    pass
+    

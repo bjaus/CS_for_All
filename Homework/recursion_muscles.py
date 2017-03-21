@@ -1,6 +1,6 @@
 '''
 Harvey Mudd College - CS for All
-Problem Name: Recursion Muscles 
+Problem Name: Recursion Muscles
 Topic: Introduction to recursion
 Lectures: Module 1, Lecture 1
 URL: https://www.cs.hmc.edu/twiki/bin/view/ModularCS1/RecursionMuscles!
